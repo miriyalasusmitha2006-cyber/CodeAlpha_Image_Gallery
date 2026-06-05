@@ -69,5 +69,5 @@ function filterImages(category) {
     document.querySelectorAll(".filters button")
         .forEach(btn => btn.classList.remove("active"));
 
-    event.target.classList.add("active");
+<button class="active" onclick="filterImages('all')">All</button>
 }
